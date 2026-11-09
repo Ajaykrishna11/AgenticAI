@@ -1,0 +1,14 @@
+{
+  "name": "smartshelf-ai-root",
+  "version": "1.0.0",
+  "description": "SmartShelf AI - Agentic Household Inventory & Expiry Management System",
+  "main": "server/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "client": "npm --prefix client dev",
+    "build:client": "npm --prefix client run build",
+    "dev": "node server/src/index.js"
+  }
+}
